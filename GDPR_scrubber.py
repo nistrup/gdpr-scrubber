@@ -18,10 +18,10 @@ def scrub(text):
     return "".join(tokens) # Sætter alle tokens sammen til en samlet sætning igen
 
 
-s = """Shakespeare was born and raised in Stratford-upon-Avon, Warwickshire.
+my_string = """Shakespeare was born and raised in Stratford-upon-Avon, Warwickshire.
 At the age of 18, he married Anne Hathaway, with whom he had three children: Susanna and twins Hamnet and Judith."""
 
-print(scrub(s))
+print(scrub(my_string))
 
 ### OUTPUT ###
 #
