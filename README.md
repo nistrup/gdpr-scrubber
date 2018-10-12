@@ -9,3 +9,5 @@ Der mange skridt der indgår i en NLP Pipeline og de kan være forskellige alt e
 ![alt text](https://cdn-images-1.medium.com/max/1000/1*zHLs87sp8R61ehUoXepWHA.png)
 
 Ovenstående er fra Medium artiklen: *Natural Language Processing is Fun! af Adam Geitgey*
+
+I mit eksempel er det kun navne der bliver fjernet men man kunne meget nemt inkluderer byer og lande med ent_type_ == "GPE" samt nationalitet / religioner eller kendte bygninger / lufthavne / broer eller andet med henholdsvis "NORP" og "FAC"
