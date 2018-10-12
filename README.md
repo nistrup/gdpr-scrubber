@@ -1,4 +1,4 @@
-# GDPR mareridt? - NLP!
+# GDPR mareridt? - N(L)P!
 
 En simpel data scrubber til at fjerne alle navne i en given tekst med NLP (Natural Language Processing), idéen ville være hvis du finder dig i en situation med tusindvis af dokumenter med tilfældige navne og måske også trykfejl der gør det svært bare at lave en "search-and-replace"
 
