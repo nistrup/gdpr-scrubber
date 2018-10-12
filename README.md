@@ -12,12 +12,12 @@ Ovenstående er fra Medium artiklen: *Natural Language Processing is Fun! af Ada
 
 I mit eksempel er det kun navne der bliver fjernet men man kunne meget nemt inkluderer byer og lande med ent_type_ == "GPE" samt nationalitet / religioner eller kendte bygninger / lufthavne / broer eller andet med henholdsvis "NORP" og "FAC"
 
-> Input:
+### Input:
 
-**Shakespeare** was born and raised in Stratford-upon-Avon, Warwickshire.
-At the age of 18, he married **Anne Hathaway**, with whom he had three children: **Susanna** and twins **Hamnet** and **Judith**.
+> **Shakespeare** was born and raised in Stratford-upon-Avon, Warwickshire.
+> At the age of 18, he married **Anne Hathaway**, with whom he had three children: **Susanna** and twins **Hamnet** and **Judith**.
 
-> Output:
+### Output:
 
-*[REDACTED]* was born and raised in Stratford-upon-Avon, Warwickshire.
-At the age of 18, he married *[REDACTED]*, with whom he had three children: *[REDACTED]* and twins *[REDACTED]* and *[REDACTED]*.
+> *[REDACTED]* was born and raised in Stratford-upon-Avon, Warwickshire.
+> At the age of 18, he married *[REDACTED]*, with whom he had three children: *[REDACTED]* and twins *[REDACTED]* and *[REDACTED]*.
